@@ -4,93 +4,107 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Table</title>
 </head>
 <body>
     <header>
         <h3>Students</h3>
+        <h4>Table with fit-content width</h4>
     </header>
-        <table border="1" style="width: 100%;">
+        <table border="1" style="width: fit-content;">
             <thead>
                 <tr>
                     <th>Surname</th>
                     <th>Name</th>
-                    <th>Homework status</th>
+                    <th colspan="2">Homework status/Deadline</th>
                     <th colspan="2">Course/Group</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>
-                        Ivanov
-                    </td>
-                    <td>
-                        Petro
-                    </td>
-                    <td>
-                        not submitted, set deadline till 31.12.2022
-                    </td>
-                    <td>
-                        Frontend
-                    </td>
+                    <td>Ivanov</td>
+                    <td>Petro</td>
+                    <td>not submitted, set deadline till 31.12.2022</td>
+                    <td>31.12.2022</td>
+                    <td>Frontend</td>
                     <td rowspan="3">121022</td>
                 </tr>
                 <tr>
-                    <td>
-                        Petrov
-                    </td>
-                    <td>
-                        Ivan
-                    </td>
-                    <td>
-                        submitted, not checked
-                    </td>
-                    <td>
-                        Fullstack
-                    </td>
+                    <td>Petrov</td>
+                    <td>Ivan</td>
+                    <td>submitted, not checked</td>
+                    <td rowspan="2">15.12.2022</td>
+                    <td>Fullstack</td>
                 </tr>
                 <tr>
-                    <td>
-                        Popov
-                    </td>
-                    <td>
-                        Oleg
-                    </td>
-                    <td>
-                        submitted, checked, comments sent to student
-                    </td>
-                    <td>
-                        Backend
-                    </td>
+                    <td>Popov</td>
+                    <td>Oleg</td>
+                    <td>submitted, checked, comments sent to student</td>
+                    <td rowspan="2">Backend</td>
                 </tr>
                 <tr>
-                    <td>
-                        Burov
-                    </td>
-                    <td>
-                        Sergey
-                    </td>
-                    <td>
-                        not submitted, set deadline till 31.12.2022
-                    </td>
-                    <td>
-                        Backend
-                    </td>
+                    <td>Burov</td>
+                    <td>Sergey</td>
+                    <td>not submitted, set deadline till 31.12.2022</td>
+                    <td>31.12.2022</td>
                     <td rowspan="2">141022</td>
                 </tr>
                 <tr>
-                    <td>
-                        Korobova
-                    </td>
-                    <td>
-                        Anastasia
-                    </td>
-                    <td>
-                        submitted, accepted
-                    </td>
-                    <td>
-                        Fullstack
-                    </td>
+                    <td>Korobova</td>
+                    <td>Anastasia</td>
+                    <td>submitted, accepted</td>
+                    <td>completed</td>
+                    <td>Fullstack</td>
+                </tr>
+            </tbody>
+        </table>
+
+<br>
+        <h4>Table with 100% of screen width</h4>
+        <table border="1" style="width: 100%;">
+            <thead>
+                <tr>
+                    <th>Surname</th>
+                    <th>Name</th>
+                    <th colspan="2">Homework status/Deadline</th>
+                    <th colspan="2">Course/Group</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ivanov</td>
+                    <td>Petro</td>
+                    <td>not submitted, set deadline till 31.12.2022</td>
+                    <td>31.12.2022</td>
+                    <td>Frontend</td>
+                    <td rowspan="3">121022</td>
+                </tr>
+                <tr>
+                    <td>Petrov</td>
+                    <td>Ivan</td>
+                    <td>submitted, not checked</td>
+                    <td rowspan="2">15.12.2022</td>
+                    <td>Fullstack</td>
+                </tr>
+                <tr>
+                    <td>Popov</td>
+                    <td>Oleg</td>
+                    <td>submitted, checked, comments sent to student</td>
+                    <td rowspan="2">Backend</td>
+                </tr>
+                <tr>
+                    <td>Burov</td>
+                    <td>Sergey</td>
+                    <td>not submitted, set deadline till 31.12.2022</td>
+                    <td>31.12.2022</td>
+                    <td rowspan="2">141022</td>
+                </tr>
+                <tr>
+                    <td>Korobova</td>
+                    <td>Anastasia</td>
+                    <td>submitted, accepted</td>
+                    <td>completed</td>
+                    <td>Fullstack</td>
                 </tr>
             </tbody>
         </table>
